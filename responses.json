@@ -15,11 +15,6 @@
         {
             "trigger": "trakt_list requires Trakt to be configured",
             "response": "`trakt_list requires Trakt to be configured`\n\nPlex Meta Manager is trying to use Trakt, but your Trakt credentials are either missing or invalid.\n\nFollow the wikipedia guide on authenticating Trakt, or type `!auth` for chazlarson's online authentication tool."
-        },
-        {
-            "trigger": "Convert Error: No * ID Found for * ID",
-            "response": "`Convert Error: No * ID Found for * ID`\n\nThese sorts of errors indicate that the thing can't be cross-referenced between sites.  For example:\n\n```\nConvert Error: No TVDb ID Found for TMDb ID: 15733\n```\n\nIn the above scenario, the TMDB record for ID 15733 didn't contain a TVDB ID.  This could be because the record just hasn't been updated, or because "The Two Mrs. Grenvilles" isn't listed on TVDB.\n\nThe fix is for someone [like you, perhaps] to go to the relevant site and fill in the missing data."
-        },
-
+        }
     ]
 }
