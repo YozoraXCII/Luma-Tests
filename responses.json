@@ -1,0 +1,20 @@
+{
+    "responses": [
+        {
+            "trigger": "18397,25781,36106",
+            "response": "`invalid literal for int() with base 10: '18397,25781,36106'`\n\nThis issue has been fixed in update 1.18.2, please update to the latest version. Type `!update` for guidance on updating."
+        },
+        {
+            "trigger": "Failed to Connect to https://api.themoviedb.org",
+            "response": "`Failed to Connect to https://api.themoviedb.org/3`\n\nThis error appears where your host machine is unable to connect to TMDb, there is little that Plex Meta Manager can do to resolve this - ensure your networking (particularly docker container) is configured to allow PMM to make internet calls."
+        },
+        {
+            "trigger": "(500) internal_server_error",
+            "response": "`(500) internal_server_error` detected in message, type !500 to learn more about this error."
+        },
+        {
+            "trigger": "trakt_list requires Trakt to be configured",
+            "response": "`trakt_list requires Trakt to be configured`\n\nPlex Meta Manager is trying to use Trakt, but your Trakt credentials are either missing or invalid.\n\nFollow the wikipedia guide on authenticating Trakt, or type `!auth` for chazlarson's online authentication tool."
+        }
+    ]
+}
